@@ -3,7 +3,7 @@ shopt -s nullglob
 shopt -s dotglob
 
 # install the default files first
-FILES=$PWD/default/*
+FILES=$HOME/dotfiles/default/*
 for f in $FILES
 do
     echo "Processing $f"
@@ -12,7 +12,7 @@ do
 done
 
 # if there is a custom version for this host, replace the default
-FILES=$PWD/hosts/$HOSTNAME/*
+FILES=$HOME/dotfiles/hosts/$HOSTNAME/*
 for f in $FILES
 do
     echo "Processing $f"
