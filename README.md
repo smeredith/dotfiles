@@ -25,5 +25,5 @@ Only one of the above should exist on your system.
 Probably .bash_profile.
 It should source .bashrc.
 
-On OSX, terminals are login sessions, even though you don't log in.
+On OSX, terminal windows are login sessions, even though you don't log in.
 Go figure.
