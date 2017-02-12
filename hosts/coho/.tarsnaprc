@@ -4,7 +4,7 @@
 cachedir /usr/home/smeredith/.tarsnap-cache
 
 # Tarsnap key file
-keyfile /usr/home/smeredith/.tarsnap-key
+keyfile /usr/home/smeredith/.tarsnap-nodelete-key
 
 # Don't archive files which have the nodump flag set
 nodump
