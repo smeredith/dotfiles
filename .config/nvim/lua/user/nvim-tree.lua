@@ -36,16 +36,16 @@ nvim_tree.setup {
     icons = {
       show = {
         file = false,
-        folder = false,
-        git = false,
+        folder = true,
+        git = true,
         folder_arrow = false,
       },
       glyphs = {
         default = "",
         symlink = "",
         folder = {
-          arrow_open = "",
-          arrow_closed = "",
+          arrow_open = "-",
+          arrow_closed = "+",
           default = "",
           open = "",
           empty = "",
@@ -54,12 +54,12 @@ nvim_tree.setup {
           symlink_open = "",
         },
         git = {
-          unstaged = "",
+          unstaged = "U",
           staged = "S",
           unmerged = "",
           renamed = "➜",
-          untracked = "U",
-          deleted = "",
+          untracked = "★",
+          deleted = "d",
           ignored = "◌",
         },
       },

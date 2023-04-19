@@ -2,6 +2,7 @@
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
 	"features": {
 		"ghcr.io/devcontainers-contrib/features/fzf:1": {},
-		"ghcr.io/devcontainers-contrib/features/neovim-apt-get:1": {}
+		"ghcr.io/devcontainers-contrib/features/neovim-apt-get:1": {},
+		"ghcr.io/devcontainers-contrib/features/ripgrep:1": {}
 	}
 }
