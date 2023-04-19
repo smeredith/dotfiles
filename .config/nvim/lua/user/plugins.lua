@@ -44,6 +44,7 @@ return packer.startup(function(use)
     use { "nvim-telescope/telescope.nvim", tag = "0.1.1", requires = { {"nvim-lua/plenary.nvim"} } }
     use { "nvim-telescope/telescope-file-browser.nvim", requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" } }
     use { "folke/which-key.nvim" }
+    use { "lewis6991/gitsigns.nvim" }
 
     -- Colorschemes
     use "jeffkreeftmeijer/vim-dim"
