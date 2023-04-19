@@ -1,12 +1,6 @@
-# Dotfile Strategy
+# Dotfiles
 
-Defaults are located in directory "default".
-These get symlinked to home.
-
-Host specific files are in a directory named after the host under "hosts".
-
-Upon installation, files are linked from home to default.
-Then host-specific files are linked if found, replacing the default of the same name.
+[Dot files guide](https://dotfiles.github.io/)
 
 ## Bash
 
