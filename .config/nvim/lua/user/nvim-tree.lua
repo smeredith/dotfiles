@@ -36,9 +36,9 @@ nvim_tree.setup {
     icons = {
       show = {
         file = false,
-        folder = true,
+        folder = false,
         git = true,
-        folder_arrow = false,
+        folder_arrow = true,
       },
       glyphs = {
         default = "",
