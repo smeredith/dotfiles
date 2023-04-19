@@ -44,10 +44,10 @@ return packer.startup(function(use)
     use { "nvim-telescope/telescope.nvim", tag = "0.1.1", requires = { {"nvim-lua/plenary.nvim"} } }
     use { "nvim-telescope/telescope-file-browser.nvim", requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" } }
     use { "folke/which-key.nvim" }
-    use { "lewis6991/gitsigns.nvim" }
+    use { "lewis6991/gitsigns.nvim", commit = "bb808fc" }
     use { "kyazdani42/nvim-web-devicons" }
-    use { "kyazdani42/nvim-tree.lua" }
-    
+    use { "kyazdani42/nvim-tree.lua", commit="e38e061"  }
+
     -- Colorschemes
     use "jeffkreeftmeijer/vim-dim"
     use "folke/tokyonight.nvim"
