@@ -83,7 +83,7 @@ local leaderMappings = {
   ["b"] = { "<cmd>lua require('telescope.builtin').buffers(require('telescope.themes').get_dropdown{previewer = false})<cr>", "Buffers", },
   ["c"] = { "<cmd>bdelete!<CR>", "Close Buffer" },
   ["e"] = { "<cmd>NvimTreeToggle<cr>", "Explorer" },
-  ["f"] = { "<cmd>lua require('telescope.builtin').find_files(require('telescope.themes').get_dropdown{previewer = false})<cr>", "Find files", },
+  ["f"] = { "<cmd>lua require('telescope.builtin').find_files({hidden=false, require('telescope.themes').get_dropdown{previewer = false}})<cr>", "Find files", },
   g = {
     name = "Git",
     j = { "<cmd>lua require 'gitsigns'.next_hunk()<cr>", "Next hunk" },
@@ -106,7 +106,8 @@ local leaderMappings = {
     c = { "<cmd>Telescope colorscheme<cr>", "Colorscheme" },
     C = { "<cmd>Telescope commands<cr>", "Commands" },
     d = { "<cmd>Telescope diagnostics<cr>", "Diagnostics" },
-    f = { "<cmd>Telescope find_files<cr>", "Find file" },
+    f = { "<cmd>Telescope find_files hidden=false<cr>", "Find file" },
+    F = { "<cmd>Telescope git_files<cr>", "Find git file" },
     g = { "<cmd>Telescope live_grep<cr>", "Live grep" },
     G = { "<cmd>lua require('telescope.builtin').grep_string({search = vim.fn.input('Rg> ')})<cr>", "Grep" },
     h = { "<cmd>Telescope help_tags<cr>", "Find help" },
