@@ -6,20 +6,20 @@
 2. Change to repo root.
 3. `./install.sh` will create links to the files in here.
 
-## Neovim
+## Neovim notes
 
 - Install Neovim
   - download and use the appimage
   - or https://github.com/neovim/neovim/blob/master/INSTALL.md#linux (download and unzip the binaries)
-- 'sudo apt-get install ripgrep'
-- For proper colors in tmux: set-option -sa terminal-features ',xterm-256color:RGB'
+- `sudo apt-get install ripgrep`
+- For proper colors in neovim in tmux: set-option -sa terminal-features ',xterm-256color:RGB'. This is already in the tmux config file here.
 - To use neovim in vscode.dev terminal, add "Hack Nerd Font" to front of Editor:Font Family setting.
 
 ### Windows Terminal
 - For proper colors when using ssh in Windows Terminal, set Windows Terminal color to Soloarized Light.
 - For symbols, download and install Hack Nerd Font from https://www.nerdfonts.com/ and set Windows Terminal to use it.
 
-## Bash
+## Bash notes
 
 See <https://shreevatsa.wordpress.com/2008/03/30/zshbash-startup-files-loading-order-bashrc-zshrc-etc/>.
 And see <http://blog.flowblok.id.au/2013-02/shell-startup-scripts.html>.
