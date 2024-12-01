@@ -2,6 +2,10 @@
 
 [Dot files guide](https://dotfiles.github.io/)
 
+1. Clone this repo.
+2. Change to repo root.
+3. `./install.sh` will create links to the files in here.
+
 ## Neovim
 
 - Install Neovim
