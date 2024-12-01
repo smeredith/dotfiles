@@ -4,11 +4,11 @@
 
 1. Clone this repo.
 2. Change to repo root.
-3. `./install.sh` will create links to the files in here.
+3. `./install.sh` will create symlinks to the files in here.
 
 ## Neovim notes
 
-- Install Neovim
+- To install Neovim:
   - download and use the appimage
   - or https://github.com/neovim/neovim/blob/master/INSTALL.md#linux (download and unzip the binaries)
 - `sudo apt-get install ripgrep`
@@ -20,6 +20,10 @@
 - For symbols, download and install Hack Nerd Font from https://www.nerdfonts.com/ and set Windows Terminal to use it.
 
 ## Bash notes
+
+I put .bashrc stuff in .bash_aliases because .bashrc in Mint Linux includes that by default.
+
+### Advice
 
 See <https://shreevatsa.wordpress.com/2008/03/30/zshbash-startup-files-loading-order-bashrc-zshrc-etc/>.
 And see <http://blog.flowblok.id.au/2013-02/shell-startup-scripts.html>.
