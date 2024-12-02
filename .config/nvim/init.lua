@@ -14,7 +14,6 @@ require "user.autocommands"
 --require "user.dap"
 --require "user.gitsigns"
 --require "user.comment"
---require "user.toggleterm"
 --require "user.indentblankline"
 --require "user.symbols-outline"
 

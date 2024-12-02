@@ -59,7 +59,6 @@ return packer.startup(function(use)
 --    use { "lewis6991/gitsigns.nvim" }
 --    use { "numToStr/Comment.nvim" }
 --    use { "JoosepAlviste/nvim-ts-context-commentstring" }
---    use { "akinsho/toggleterm.nvim" }
 
     -- cmp
 --    use "hrsh7th/nvim-cmp"
