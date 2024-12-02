@@ -19,6 +19,9 @@
 - For proper colors when using ssh in Windows Terminal, set Windows Terminal color to Soloarized Light.
 - For symbols, download and install Hack Nerd Font from https://www.nerdfonts.com/ and set Windows Terminal to use it.
 
+### Linux Terminal
+- You can add nerd font .ttf files to `~/.local/share/fonts`.
+
 ## Bash notes
 
 I put .bashrc stuff in .bash_aliases because .bashrc in Mint Linux includes that by default.

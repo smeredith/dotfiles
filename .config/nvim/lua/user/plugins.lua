@@ -41,18 +41,21 @@ packer.init({
 -- Install your plugins here
 return packer.startup(function(use)
     -- Basic stuff
-    use { "wbthomason/packer.nvim" } -- Have packer manage itself
-    use { "shaunsingh/solarized.nvim" }
     use { "folke/which-key.nvim" }
-    use { "kyazdani42/nvim-web-devicons" }
-    use { "nvim-telescope/telescope.nvim", requires = { {"nvim-lua/plenary.nvim"} } }
-    use { "nvim-telescope/telescope-file-browser.nvim", requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" } }
-    use { "debugloop/telescope-undo.nvim", requires = {"nvim-telescope/telescope.nvim" } }
+    use { "wbthomason/packer.nvim" } -- Have packer manage itself
     use { "kyazdani42/nvim-tree.lua" }
-    use { "nvim-treesitter/nvim-treesitter" }
-    use { "HiPhish/rainbow-delimiters.nvim" }
+    use { "shaunsingh/solarized.nvim" }
+    use { "kyazdani42/nvim-web-devicons" }
 
-    use { "NeogitOrg/neogit", requires = { "nvim-lua/plenary.nvim", "sindrets/diffview.nvim", "nvim-telescope/telescope.nvim" } }
+    use { "nvim-telescope/telescope.nvim" }
+    use { "nvim-telescope/telescope-file-browser.nvim" }
+    use { "nvim-lua/plenary.nvim" }
+
+--    use { "debugloop/telescope-undo.nvim", requires = {"nvim-telescope/telescope.nvim" } }
+--    use { "nvim-treesitter/nvim-treesitter" }
+--    use { "HiPhish/rainbow-delimiters.nvim" }
+
+--    use { "NeogitOrg/neogit", requires = { "nvim-lua/plenary.nvim", "sindrets/diffview.nvim", "nvim-telescope/telescope.nvim" } }
 --    use { "lewis6991/gitsigns.nvim" }
 --    use { "numToStr/Comment.nvim" }
 --    use { "JoosepAlviste/nvim-ts-context-commentstring" }
@@ -71,9 +74,9 @@ return packer.startup(function(use)
 --    use { "lukas-reineke/indent-blankline.nvim" }
 
     -- LSP
-    use { "williamboman/mason.nvim"} -- simple to use language server installer
-    use { "williamboman/mason-lspconfig.nvim"}
-    use { "neovim/nvim-lspconfig"} -- enable LSP
+--    use { "williamboman/mason.nvim"} -- simple to use language server installer
+--    use { "williamboman/mason-lspconfig.nvim"}
+--    use { "neovim/nvim-lspconfig"} -- enable LSP
 
 --    use { "RRethy/vim-illuminate"}
 --    use { "simrat39/symbols-outline.nvim" }
