@@ -43,7 +43,6 @@ return packer.startup(function(use)
     -- Basic stuff
     use { "folke/which-key.nvim" }
     use { "wbthomason/packer.nvim" } -- Have packer manage itself
-    use { "kyazdani42/nvim-tree.lua" }
     use { "shaunsingh/solarized.nvim" }
     use { "kyazdani42/nvim-web-devicons" }
 

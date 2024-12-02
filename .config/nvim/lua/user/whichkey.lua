@@ -6,7 +6,6 @@ local options = {
 
 local mappings = {
   { "<leader>c", "<cmd>bdelete!<cr>", desc="Close Buffer" },
-  { "<leader>e", "<cmd>NvimTreeToggle<cr>", desc="Explorer" },
   { "<leader>h", "<cmd>nohlsearch<cr>", desc="No Highlight" },
   { "<leader>s", group = "search" },
   { "<leader>sb", "<cmd>Telescope buffers<cr>", desc="Buffers" },
