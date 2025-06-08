@@ -10,6 +10,8 @@
 
 Codespaces can automatically pull your dotfiles repo and run a setup script. See [documentation](https://docs.github.com/en/codespaces/setting-your-user-preferences/personalizing-github-codespaces-for-your-account).
 
+It is a per-account setting found under Cettings -> Codespaces -> Dotfiles.
+
 ## Neovim notes
 
 - To install Neovim:
