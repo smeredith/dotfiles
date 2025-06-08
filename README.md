@@ -1,16 +1,15 @@
 # Dotfiles
 
-[Dot files guide](https://dotfiles.github.io/)
-
-1. Clone this repo.
-2. Change to repo root.
-3. `./install.sh` will create symlinks to the files in here.
-
 ## Github CodeSpaces
 
 Codespaces can automatically pull your dotfiles repo and run a setup script. See [documentation](https://docs.github.com/en/codespaces/setting-your-user-preferences/personalizing-github-codespaces-for-your-account).
+It is a per-account setting found under Settings -> Codespaces -> Dotfiles.
 
-It is a per-account setting found under Cettings -> Codespaces -> Dotfiles.
+`install.sh` exists for that purpose.
+
+## Ansible
+
+You can use ansible to pull the repo and set symlinks to the directories under `config`.
 
 ## Neovim notes
 
@@ -29,10 +28,6 @@ It is a per-account setting found under Cettings -> Codespaces -> Dotfiles.
 - You can add nerd font .ttf files to `~/.local/share/fonts`.
 
 ## Bash notes
-
-I put .bashrc stuff in .bash_aliases because .bashrc in Mint Linux includes that by default.
-
-### Advice
 
 See <https://shreevatsa.wordpress.com/2008/03/30/zshbash-startup-files-loading-order-bashrc-zshrc-etc/>.
 And see <http://blog.flowblok.id.au/2013-02/shell-startup-scripts.html>.
