@@ -6,6 +6,10 @@
 2. Change to repo root.
 3. `./install.sh` will create symlinks to the files in here.
 
+## Github CodeSpaces
+
+Codespaces can automatically pull your dotfiles repo and run a setup script. See [documentation](https://docs.github.com/en/codespaces/setting-your-user-preferences/personalizing-github-codespaces-for-your-account).
+
 ## Neovim notes
 
 - To install Neovim:
