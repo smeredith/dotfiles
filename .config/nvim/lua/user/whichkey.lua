@@ -6,6 +6,7 @@ local options = {
 
 local mappings = {
   { "<leader>c", "<cmd>bdelete!<cr>", desc="Close Buffer" },
+  { "<leader>d",  function() vim.cmd("edit " .. string.format("%s/%s.md", vim.fn.expand("journal"), os.date("%Y-%m-%d"))) end, desc="Open Daily Note" },
   { "<leader>t", group = "Toggle" },
   { "<leader>s", group = "Search" },
   { "<leader>sb", "<cmd>Telescope buffers<cr>", desc="Buffers" },
