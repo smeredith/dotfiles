@@ -17,6 +17,7 @@ local mappings = {
   { "<leader>sl", "<cmd>Telescope resume<cr>", desc="Resume Last Search" },
   { "<leader>sr", "<cmd>Telescope oldfiles<cr>", desc="Open Recent File" },
   { "<leader>sR", "<cmd>Telescope registers<cr>", desc="Registers" },
+  { "<leader>n", "<cmd>set number!<cr>", desc="Toggle Line Number" },
   { "<leader>w", "<cmd>set wrap!<cr>", desc="Toggle Wrap" },
   { "<leader>z", "<cmd>set spell!<cr>", desc="Toggle Spellcheck" },
 }

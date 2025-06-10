@@ -49,13 +49,13 @@ return packer.startup(function(use)
     use { "nvim-telescope/telescope.nvim" }
     use { "nvim-telescope/telescope-file-browser.nvim" }
     use { "nvim-lua/plenary.nvim" }
+    use { "lewis6991/gitsigns.nvim" }
 
 --    use { "debugloop/telescope-undo.nvim", requires = {"nvim-telescope/telescope.nvim" } }
 --    use { "nvim-treesitter/nvim-treesitter" }
 --    use { "HiPhish/rainbow-delimiters.nvim" }
 
 --    use { "NeogitOrg/neogit", requires = { "nvim-lua/plenary.nvim", "sindrets/diffview.nvim", "nvim-telescope/telescope.nvim" } }
---    use { "lewis6991/gitsigns.nvim" }
 --    use { "numToStr/Comment.nvim" }
 --    use { "JoosepAlviste/nvim-ts-context-commentstring" }
 
