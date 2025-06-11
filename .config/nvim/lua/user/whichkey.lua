@@ -17,7 +17,7 @@ local mappings = {
   { "<leader>sc", "<cmd>Telescope commands<cr>", desc="Commands" },
   { "<leader>sf", "<cmd>Telescope find_files<cr>", desc="Find Files" },
   { "<leader>sg", "<cmd>Telescope live_grep<cr>", desc="Live Grep" },
-  { "<leader>sG", function() require('telescope.builtin').grep_string({search = vim.fn.input('Rg> ')}) end, desc="Live Grep" },
+  { "<leader>sG", function() require('telescope.builtin').grep_string({search = vim.fn.input('Rg> ')}) end, desc="grep" },
   { "<leader>sk", "<cmd>Telescope keymaps<cr>", desc="Keymaps" },
   { "<leader>sl", "<cmd>Telescope resume<cr>", desc="Resume Last Search" },
   { "<leader>sr", "<cmd>Telescope oldfiles<cr>", desc="Open Recent File" },
