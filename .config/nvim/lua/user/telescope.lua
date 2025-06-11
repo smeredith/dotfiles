@@ -5,7 +5,7 @@ end
 
 telescope.setup {
   defaults = {
-
+    disable_devicons = true,
     mappings = {
       i = {
         ['<C-u>'] = false,

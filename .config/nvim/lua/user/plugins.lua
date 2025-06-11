@@ -44,7 +44,7 @@ return packer.startup(function(use)
     use { "folke/which-key.nvim" }
     use { "wbthomason/packer.nvim" } -- Have packer manage itself
     use { "shaunsingh/solarized.nvim" }
-    use { "kyazdani42/nvim-web-devicons" }
+--    use { "kyazdani42/nvim-web-devicons" }
 
     use { "nvim-telescope/telescope.nvim" }
     use { "nvim-telescope/telescope-file-browser.nvim" }
