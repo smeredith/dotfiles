@@ -2,6 +2,10 @@ local which_key = require("which-key")
 
 local options = {
     preset = "modern",
+    icons = {
+      -- no icons
+      mappings = false,
+    }
 }
 
 local mappings = {
