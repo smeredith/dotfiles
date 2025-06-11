@@ -44,12 +44,13 @@ return packer.startup(function(use)
     use { "folke/which-key.nvim" }
     use { "wbthomason/packer.nvim" } -- Have packer manage itself
     use { "shaunsingh/solarized.nvim" }
---    use { "kyazdani42/nvim-web-devicons" }
 
     use { "nvim-telescope/telescope.nvim" }
     use { "nvim-telescope/telescope-file-browser.nvim" }
     use { "nvim-lua/plenary.nvim" }
     use { "lewis6991/gitsigns.nvim" }
+    use { "bullets-vim/bullets.vim" }
+    use { "kiyoon/telescope-insert-path.nvim" }
 
 --    use { "debugloop/telescope-undo.nvim", requires = {"nvim-telescope/telescope.nvim" } }
 --    use { "nvim-treesitter/nvim-treesitter" }
