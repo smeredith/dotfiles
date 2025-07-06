@@ -40,9 +40,13 @@ local options = {
 
 local mappings = {
   { "<leader>c", "<cmd>bdelete!<cr>", desc="Close Buffer" },
-  { "<leader>d",  function() vim.cmd("edit " .. string.format("%s/%s.md", vim.fn.expand("journal"), os.date("%Y-%m-%d"))) end, desc="Open Daily Note" },
+  { "<leader>d", group = "Daily" },
   { "<leader>t", group = "Toggle" },
   { "<leader>s", group = "Search" },
+  { "<leader>dd",  function() vim.cmd("edit " .. string.format("%s/%s.md", vim.fn.expand("journal"), os.date("%Y-%m-%d"))) end, desc="Open Daily Note" },
+  { "<leader>di",  function() vim.api.nvim_put({ "# " .. os.date("%Y-%m-%d") }, "l", false, true) end, desc = "Insert ISO date with #" },
+  { "<leader>dn", "<cmd>NextDay<cr>", desc="Next Day" },
+  { "<leader>dp", "<cmd>PreviousDay<cr>", desc="Previous Day" },
   { "<leader>sb", "<cmd>Telescope buffers<cr>", desc="Buffers" },
   { "<leader>sc", "<cmd>Telescope commands<cr>", desc="Commands" },
   { "<leader>sf", "<cmd>Telescope find_files<cr>", desc="Find Files" },

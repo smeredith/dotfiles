@@ -51,6 +51,7 @@ return packer.startup(function(use)
     use { "lewis6991/gitsigns.nvim" }
     use { "bullets-vim/bullets.vim" }
     use { "kiyoon/telescope-insert-path.nvim" }
+    use { "fdavies93/daily-notes.nvim" }
 
 --    use { "debugloop/telescope-undo.nvim", requires = {"nvim-telescope/telescope.nvim" } }
 --    use { "nvim-treesitter/nvim-treesitter" }
