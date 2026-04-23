@@ -28,8 +28,11 @@ return {
         require("beancount").setup({
             python_path = vim.fn.expand("~/.local/share/pipx/venvs/beancount/bin/python"),
             separator_column = 60,
-            auto_fill_amounts = true,
             instant_alignment = false,
+            auto_format_on_save = false,
+            auto_fill_amounts = true,
+            inlay_hints = false,
+            auto_save_before_check = false,
         })
         vim.api.nvim_create_autocmd("FileType", {
             pattern = { "beancount", "bean" },
