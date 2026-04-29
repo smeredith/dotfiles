@@ -13,13 +13,13 @@ vim.opt.listchars = "trail:·,tab:»-"
 vim.opt.mouse = ""
 vim.opt.encoding = "utf-8"
 vim.opt.incsearch = true
-vim.opt.hlsearch = true
+vim.opt.hlsearch = false
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 vim.opt.startofline = false
 vim.opt.termguicolors = true
-vim.opt.numberwidth = 4                         -- set number column width to 2 {default 4}
+vim.opt.numberwidth = 4                         -- set number column width
 vim.opt.signcolumn = "yes"                      -- always show the sign column, otherwise it would shift the text each time
 vim.opt.undofile=true                           -- persistent undo
 vim.opt.timeoutlen=400                          -- faster whichkey window
-
+vim.opt.lazyredraw = true                       -- don't redraw while executing macros/searches
