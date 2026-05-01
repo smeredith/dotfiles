@@ -1,11 +1,6 @@
 return {
     "hxueh/beancount.nvim",
     ft = { "beancount" },
-    dependencies = {
-        {
-            "L3MON4D3/LuaSnip",
-        },
-    },
     config = function()
         require("beancount").setup({
             python_path = vim.fn.expand("~/.local/share/pipx/venvs/beancount/bin/python"),
