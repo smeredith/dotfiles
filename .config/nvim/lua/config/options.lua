@@ -23,3 +23,13 @@ vim.opt.signcolumn = "yes"                      -- always show the sign column, 
 vim.opt.undofile=true                           -- persistent undo
 vim.opt.timeoutlen=400                          -- faster whichkey window
 vim.opt.lazyredraw = true                       -- don't redraw while executing macros/searches
+
+vim.g.clipboard = {
+  name = 'OSC 52',
+  copy = {
+    ['+'] = require('vim.ui.clipboard.osc52').copy('+'),
+  },
+  paste = {
+    ['+'] = require('vim.ui.clipboard.osc52').paste('+'),
+  },
+}
