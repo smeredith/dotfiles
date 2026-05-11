@@ -50,6 +50,7 @@ return {
     { "<leader>sl", "<cmd>Telescope resume<cr>", desc="Resume Last Search" },
     { "<leader>sr", "<cmd>Telescope oldfiles<cr>", desc="Open Recent File" },
     { "<leader>sR", "<cmd>Telescope registers<cr>", desc="Registers" },
+    { "<leader>e", function() vim.diagnostic.open_float() end, desc = "Show Error", ft = "beancount" },
     { "<leader>t", group = "Toggle" },
     { "<leader>tg", function() require('gitsigns').toggle_signs() end, desc="Git Signs" },
     { "<leader>th", "<cmd>set hlsearch!<cr>", desc="Highligh Search" },

@@ -14,6 +14,12 @@ return {
                 enabled = true,             -- Enable snippet support
                 date_format = "%Y-%m-%d",   -- Date format for snippets
             },
+            ui = {
+                virtual_text = true,
+                signs = true,               -- Show diagnostic signs
+                update_in_insert = false,   -- Don't update while typing
+                severity_sort = true,       -- Sort by severity
+            },
         })
         vim.api.nvim_create_autocmd("FileType", {
             pattern = { "beancount" },
